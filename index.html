@@ -1,0 +1,76 @@
+
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<title>MY WEBSITE </title>
+<meta charset="utf-8">
+
+
+<style>
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+body{
+  background-color: #81a0de;
+}
+</style>
+<body>
+  <h1>AMAVUBI FOOTBALL TEAM</h1>
+
+<P>The Rwanda national football team represents Rwanda in international football and is controlled by the Rwandese Association Football Federation, the governing body of football in Rwanda, and competes as a member of the Confederation of African Football (CAF), as well as the Council for East and Central Africa Football Associations (CECAFA), a CAF sub-confederation that governs football in East and Central Africa. The team bears the nickname Amavubi (Kinyarwanda for The Wasps), and primarily plays its home games at the Stade Amahoro in Kigali, the nation's capital. They have never qualified for a World Cup finals, and reached their first Africa Cup of Nations in 2004.</P>
+<H1>AMAVUBI FOOTBALL TEAM 2021</H1>
+<IMG SRC="https://www.newtimes.co.rw/sites/default/files/main/articles/2020/03/11/the-national-football-team-amavubi.jpg"><BR>
+<LABEL FOR>ARE YOU OUR FAN?</LABEL><BR>
+<LABEL FOR>YES</LABEL>
+<INPUT TYPE="RADIO" ID="YES" VALUE="YES" NAME="ANSWER">
+<LABEL FOR> NO</LABEL>
+<INPUT TYPE="RADIO" ID="NO" VALUE="NO" NAME="ANSWER">
+<P>IF YES FILL THIS FORM</p>
+<div>
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="RWANDA">RWANDA</option>
+      <option value="UGANDA">UGANDA</option>
+      <option value="KENYA">KENYA</option>
+    </select>
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
